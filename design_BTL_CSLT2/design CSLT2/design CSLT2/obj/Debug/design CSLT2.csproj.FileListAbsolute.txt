@@ -1,0 +1,17 @@
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design CSLT2.csproj.AssemblyReference.cache
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2._9.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.bc7.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.DMSach.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.frmbaocaosach.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.frmDangNhap.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.FrmHoSoTra.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.frmNXB.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.Thủ_Thư.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.frmtimkiemsachtruyen.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.hồ_sơ_mượn.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.main.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.Properties.Resources.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.themuon.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design_CSLT2.frmtimkiemthuthu.resources
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design CSLT2.csproj.GenerateResource.cache
+D:\design_BTL_CSLT2\design CSLT2\design CSLT2\obj\Debug\design CSLT2.csproj.CoreCompileInputs.cache

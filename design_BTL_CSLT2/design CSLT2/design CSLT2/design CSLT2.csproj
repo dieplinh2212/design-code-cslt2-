@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C1C286B-62A7-41B5-B949-1D9E43012625}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>design_CSLT2</RootNamespace>
+    <AssemblyName>design CSLT2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="9.Designer.cs">
+      <DependentUpon>9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bc7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bc7.Designer.cs">
+      <DependentUpon>bc7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMSach.Designer.cs">
+      <DependentUpon>DMSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbaocaosach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbaocaosach.Designer.cs">
+      <DependentUpon>frmbaocaosach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHoSoTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHoSoTra.Designer.cs">
+      <DependentUpon>FrmHoSoTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNXB.Designer.cs">
+      <DependentUpon>frmNXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmthuthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmthuthu.Designer.cs">
+      <DependentUpon>frmthuthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmtimkiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtimkiem.Designer.cs">
+      <DependentUpon>frmtimkiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="hồ sơ mượn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hồ sơ mượn.Designer.cs">
+      <DependentUpon>hồ sơ mượn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="themuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themuon.Designer.cs">
+      <DependentUpon>themuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tìm thủ thư.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tìm thủ thư.Designer.cs">
+      <DependentUpon>tìm thủ thư.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="9.resx">
+      <DependentUpon>9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bc7.resx">
+      <DependentUpon>bc7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMSach.resx">
+      <DependentUpon>DMSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbaocaosach.resx">
+      <DependentUpon>frmbaocaosach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHoSoTra.resx">
+      <DependentUpon>FrmHoSoTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNXB.resx">
+      <DependentUpon>frmNXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmthuthu.resx">
+      <DependentUpon>frmthuthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtimkiem.resx">
+      <DependentUpon>frmtimkiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hồ sơ mượn.resx">
+      <DependentUpon>hồ sơ mượn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themuon.resx">
+      <DependentUpon>themuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tìm thủ thư.resx">
+      <DependentUpon>tìm thủ thư.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design btl cslt2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmtimkiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmtimkiem1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmThủ thư.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nxb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\báo cáo sáhc chưa trả.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hố sơ trả.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hố sơ mượn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frm thẻ mượn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sách.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Đăng nhập.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\287327705_358566973053792_3855561330680617920_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288674416_545899827230472_719654445932359108_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288189344_4676988985736079_3848529081929437190_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288674416_545899827230472_719654445932359108_n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288908967_5138787032837670_1278917793462103384_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TÌM THỦ THƯ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\báo cáo 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\báo cáo 9.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
